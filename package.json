@@ -1,0 +1,32 @@
+{
+  "name": "neutrino-preset-eslint-google",
+  "version": "1.0.0",
+  "description": "Neutrino preset for adding Google's base JS ESLint config, following the Google styleguide",
+  "main": "src/index.js",
+  "keywords": [
+    "neutrino",
+    "neutrino-preset",
+    "eslint"
+  ],
+  "author": "Capi Etheriel <barraponto@gmail.com> (https://barraponto.blog.br)",
+  "license": "GPL-3.0",
+  "repository": "https://github.com/barraponto/neutrino-preset-eslint-google",
+  "bugs": "https://github.com/barraponto/neutrino-preset-eslint-google/issues",
+  "dependencies": {
+    "deepmerge": "^1.3.2",
+    "eslint-config-google": "^0.7.1",
+    "neutrino-lint-base": "^4.3.1"
+  },
+  "peerDependencies": {
+    "neutrino": "^4.0.0"
+  },
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
