@@ -11,12 +11,21 @@ Install this preset to your development dependencies, then set it in
 `package.json`:
 
 ```json
-  "config": {
-    "presets": [
-      "neutrino-preset-eslint-google"
+  "neutrino": {
+    "use": [
+      "neutrino-preset-eslint-google",
+      "neutrino-preset-web",
     ]
   },
 ```
+
+This preset doesn't depend on `neutrino-preset-web`, but it doesn't introduce
+any entry points on its own.
+
+## Neutrino 4
+
+Neutrino v4 is supported by the earlier release of this preset.
+Please consider updating to Neutrino 5.
 
 [npm-image]: https://img.shields.io/npm/v/neutrino-preset-eslint-google.svg
 [npm-downloads]: https://img.shields.io/npm/dt/neutrino-preset-eslint-google.svg
