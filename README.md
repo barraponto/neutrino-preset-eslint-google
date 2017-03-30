@@ -1,4 +1,6 @@
 # Neutrino preset with ESLint Google configuration
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/barraponto/neutrino-preset-eslint-google.svg)](https://greenkeeper.io/)
 [![NPM version][npm-image]][npm-url] [![NPM downloads][npm-downloads]][npm-url] [![Join Slack][slack-image]][slack-url]
 
 `neutrino-preset-eslint-google` is a Neutrino preset that supports linting
