@@ -1,6 +1,6 @@
 {
   "name": "neutrino-preset-eslint-google",
-  "version": "2.0.0",
+  "version": "3.0.0-rc.1",
   "description": "Neutrino preset for adding Google's base JS ESLint config, following the Google styleguide",
   "main": "src/index.js",
   "keywords": [
@@ -18,7 +18,7 @@
     "neutrino-middleware-eslint": "^6.1.4"
   },
   "peerDependencies": {
-    "neutrino": "^5.0.0"
+    "neutrino": "^6.1.4"
   },
   "devDependencies": {
     "commitizen": "^2.9.6",
