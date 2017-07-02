@@ -20,8 +20,19 @@ Install this preset to your development dependencies, then set it in
   };
 ```
 
-This preset doesn't depend on `neutrino-preset-web`, but it doesn't introduce
-any entry points on its own.
+The preset will enable `eslint:recommended` rules by default. To disable them,
+set the `recommended` option to false:
+
+```javascript
+  module.exports = {
+    use: [
+      ["neutrino-preset-eslint-google", {recommended: false}],
+      "neutrino-preset-web",
+    ],
+    ...
+  };
+```
+
 
 [npm-image]: https://img.shields.io/npm/v/neutrino-preset-eslint-google.svg
 [npm-downloads]: https://img.shields.io/npm/dt/neutrino-preset-eslint-google.svg
