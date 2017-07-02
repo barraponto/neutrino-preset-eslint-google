@@ -3,7 +3,7 @@
 
 `neutrino-preset-eslint-google` is a Neutrino preset that supports linting
 JavaScript projects with Google's base ESLint config, following the 
-[Google styleguide](http://google.github.io/styleguide/javascriptguide.xml).
+[Google styleguide](https://google.github.io/styleguide/jsguide.html).
 
 ## Documentation
 
