@@ -1,6 +1,6 @@
 {
   "name": "neutrino-preset-eslint-google",
-  "version": "3.0.0-rc.1",
+  "version": "3.0.0",
   "description": "Neutrino preset for adding Google's base JS ESLint config, following the Google styleguide",
   "main": "src/index.js",
   "keywords": [
